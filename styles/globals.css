@@ -8,6 +8,9 @@
 @tailwind utilities;
 
 @layer base {
+  body {
+    @apply bg-[#531a82];
+  }
   .superflex {
     @apply flex justify-center items-center;
   }
@@ -25,7 +28,6 @@
   }
 }
 
-canvas{
+canvas {
   touch-action: none;
 }
-
